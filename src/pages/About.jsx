@@ -207,7 +207,7 @@ Graduation/ Polytechnic Engineering Diploma.
             </div>
           </div>
           <div className='my-10 flex flex-col md:flex-row gap-10'>
-            <div className="mx-auto text-center mt-20">
+            <div className="mx-auto text-center">
               <h1 className="px-2 py-2 mb-4 font-bold border text-[#071952]" data-aos="flip-right"> Semester III</h1>
               <table className="w-full table-auto" data-aos="flip-left">
                 <thead >
@@ -219,6 +219,18 @@ Graduation/ Polytechnic Engineering Diploma.
                       <td className="border px-6 py-2 text font-medium text-tartiary">A10.XR5.1</td>
                       <td className="border px-4 py-2 text-tartiary">One module out of A10.1-R5.1, A10.2-R5.1, A10.3-R5.1,<br /> A10.4-R5.1 and A10.5-R5.1</td>
                     </tr>
+                </thead>
+              </table>
+            </div>
+            <div className="mx-auto text-center -mt-2">
+              <h1 className="px-2 py-2 mb-4 font-bold border text-[#071952]" data-aos="flip-right"> Practical III</h1>
+              <table className="w-full table-auto" data-aos="flip-left">
+                <thead >
+                <tr>
+                      <td className="border px-6 py-2 text font-medium text-tartiary">PJ-II</td>
+                      <td className="border px-4 py-2 text-tartiary">Major Project (360) Based on Specialized area</td>
+                    </tr>
+                
                 </thead>
               </table>
             </div>
