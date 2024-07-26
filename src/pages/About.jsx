@@ -13,7 +13,6 @@ import { SiMinutemailer } from "react-icons/si";
 import { GiTeacher } from "react-icons/gi";
 import { GiEarthAmerica } from "react-icons/gi";
 import Screenshotinpdf from "../components/assets/images/A-level.jpg"
-// import join from "../components/assets/images/joinimg.png"
 import pdffile from "../components/assets/O_Level_IT.pdf"
 import japan from "../../src/components/assets/japan.pdf"
 
@@ -222,7 +221,10 @@ Graduation/ Polytechnic Engineering Diploma.
                 </thead>
               </table>
             </div>
-            <div className="mx-auto text-center -mt-2">
+          
+          </div>
+          <div className='my-10 flex flex-col md:flex-row gap-10'>
+          <div className="mx-auto text-center -mt-2">
               <h1 className="px-2 py-2 mb-4 font-bold border text-[#071952]" data-aos="flip-right"> Practical III</h1>
               <table className="w-full table-auto" data-aos="flip-left">
                 <thead >
@@ -234,6 +236,7 @@ Graduation/ Polytechnic Engineering Diploma.
                 </thead>
               </table>
             </div>
+          
           </div>
           <div className='md:w-full'>
             <div className="text-center">
@@ -415,56 +418,7 @@ Graduation/ Polytechnic Engineering Diploma.
           </div>
         </div>
       </div>
-      {/* <div className='container flex md:flex-col flex-row'>
-        <div className='left w-1/2 md:w-full relative'>
-          <div className='md:w-full'>
-            <div className="text-center">
-              <div className='my-4 flex flex-col md:flex-row'>
-                <div className="mx-auto">
-                  <h1 className="text-[18px] font-bold mb-4 border text-primary" data-aos="flip-left">Download PDF</h1>
-                  <div className='flex justify-center' data-aos="flip-right">
-                    <a href={pdffile} download="pdffile">
-                      <img src={Screenshotinpdf} alt=""
-                        className='border mb-4 h-96 py-2 px-4 rounded-xl' />
-                    </a>
-                  </div>
-                  <table className="w-full table-auto ">
-                    <thead>
-                      <tr>
-                        <th data-aos="flip-left"><a href={pdffile} download="pdffile" className="px-4 py-2 text font-bold border underline"><button className='px-5 py-2 border text-white bg-primary hover:shadow-2xl border-white rounded-md text-sm'>Download PDF</button></a></th>
-                      </tr>
-                    </thead>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='right w-1/2 md:w-full'>
-          <div className='md:w-full'>
-            <div className="text-center">
-              <div className='my-4 flex flex-col md:flex-row'>
-                <div className="mx-auto">
-                  <h1 className="text-[18px] font-bold mb-4 border text-primary" data-aos="flip-right">Register</h1>
-                  <div className='flex justify-center' data-aos="flip-left">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1-2LdbI75MX_mHwYruA8j2yVb973zgfza8zEmGBH9XbGDWg/viewform" target='blank'>
-                      <img src={join} alt=""
-                        className='border mb-4 h-96 py-2 px-4 rounded-xl' />
-                    </a>
-                  </div>
-                  <table className="w-full table-auto">
-                    <thead>
-                      <tr>
-                        <th data-aos="flip-right"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc1-2LdbI75MX_mHwYruA8j2yVb973zgfza8zEmGBH9XbGDWg/viewform" target='blank'><button className='px-5 py-2 border text-white bg-primary hover:shadow-2xl border-white rounded-md text-sm'>Apply Now</button></a></th>
-                      </tr>
-                    </thead>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      
     </section>
   )
 }
