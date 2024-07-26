@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=3001 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,7 +42,7 @@
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   },
-  "description": "Demo : https://648da51c0335767fb168d47c--clinquant-lebkuchen-d976ba.netlify.app/  ![screencapture-localhost-3000-2023-06-17-18_04_20](https://github.com/sunil9813/Educal-Online-Courses/assets/67497228/85282c81-9851-4cb5-8c6b-65053c582fa5)",
+  "description": "Demo",
   "main": "tailwind.config.js",
   "author": "",
   "license": "ISC"
